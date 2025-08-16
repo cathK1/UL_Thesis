@@ -5,3 +5,4 @@ Contains Jupyter Notebooks and python files for preprocessing of data and experi
 
 TODO:
 - Add tqdm to entropy_analysis's individual phrase entropy calculation to see progress
+- reverse delta h heatmap layer indexing
