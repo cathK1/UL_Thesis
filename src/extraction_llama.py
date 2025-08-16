@@ -281,8 +281,8 @@ Problem: """
             batch_end = min(batch_start + batch_size, total_rows)
             batch_df = df.iloc[batch_start:batch_end]
 
-            for idx, row in batch_df.iterrows():
-                print(f"Processing row {idx + 1}/{total_rows}")
+            for local_idx, (idx, row) in enumerate(batch_df.iterrows()):
+                print(f"Processing row {local_idx + 1}/{total_rows} (original index: {idx})")
 
                 row_result = {
                     'Index': row.get('Index', idx),
@@ -551,11 +551,19 @@ def main():
 ######################################
         # Test mode settings
         TEST_MODE = False # Write False for full dataset inference
-        NUM_TEST_ROWS = 8
+        CHUNK_MODE = True      # Add this
+        CHUNK_SIZE = 300       # Process 300 rows at a time  
+        CHUNK_START = int(os.environ.get('CHUNK_START', 0))        # Change this for each run
+        NUM_TEST_ROWS = 2
         TEST_METHOD = "first"
         USE_FEW_SHOT = True  # Set to False to disable few-shot prompting
  ##########################################
-        if TEST_MODE:
+        if CHUNK_MODE:
+            chunk_end = min(CHUNK_START + CHUNK_SIZE, len(df))
+            df = df.iloc[CHUNK_START:chunk_end]
+            output_folder = f"chunk_{CHUNK_START}_{chunk_end-1}_output"
+            print(f"Processing chunk: rows {CHUNK_START} to {chunk_end-1} ({len(df)} rows)")
+        elif TEST_MODE:
             df = select_test_rows(df, num_rows=NUM_TEST_ROWS, method=TEST_METHOD)
             output_folder = f"test_output_{NUM_TEST_ROWS}rows"
         else:
