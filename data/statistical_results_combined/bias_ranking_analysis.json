@@ -1,0 +1,226 @@
+{
+  "phrase_metrics": {
+    "teacher": {
+      "mean_delta_h": -1.07958241344427e-05,
+      "abs_mean_delta_h": 0.00022848750249255856,
+      "negative_percentage": 37.080536912751676,
+      "delta_h_std": 0.0003339882513044664,
+      "mean_entropy": 3.1796141884467053,
+      "entropy_std": 0.2857745414463218,
+      "data_coverage": 596
+    },
+    "own": {
+      "mean_delta_h": -8.727178746095527e-06,
+      "abs_mean_delta_h": 0.00018993756696850285,
+      "negative_percentage": 39.00804289544236,
+      "delta_h_std": 0.00029652410339831,
+      "mean_entropy": 3.161116958337406,
+      "entropy_std": 0.4048299882091675,
+      "data_coverage": 746
+    },
+    "sure": {
+      "mean_delta_h": -0.000747878677284635,
+      "abs_mean_delta_h": 0.0036905023086598035,
+      "negative_percentage": 44.04352806414662,
+      "delta_h_std": 0.009943394474504173,
+      "mean_entropy": 3.0672752984315848,
+      "entropy_std": 0.30599157908890307,
+      "data_coverage": 1746
+    },
+    "unsure": {
+      "mean_delta_h": 6.350946469802715e-05,
+      "abs_mean_delta_h": 0.00032926932384398026,
+      "negative_percentage": 31.42361111111111,
+      "delta_h_std": 0.0004890981193092439,
+      "mean_entropy": 2.8742073374651764,
+      "entropy_std": 0.1646322799685558,
+      "data_coverage": 576
+    },
+    "quick": {
+      "mean_delta_h": -0.0023134847457684706,
+      "abs_mean_delta_h": 0.010587341719613088,
+      "negative_percentage": 61.111111111111114,
+      "delta_h_std": 0.017210630629999023,
+      "mean_entropy": 3.4288472571632473,
+      "entropy_std": 0.09782069543109871,
+      "data_coverage": 576
+    },
+    "fast": {
+      "mean_delta_h": -0.0013564831746347428,
+      "abs_mean_delta_h": 0.006499832998612125,
+      "negative_percentage": 54.33436532507739,
+      "delta_h_std": 0.010959815586596595,
+      "mean_entropy": 3.6030258181271946,
+      "entropy_std": 0.1374423477938417,
+      "data_coverage": 646
+    },
+    "step": {
+      "mean_delta_h": -0.0007558287132660281,
+      "abs_mean_delta_h": 0.006514086361103344,
+      "negative_percentage": 54.6875,
+      "delta_h_std": 0.012271971105672465,
+      "mean_entropy": 3.5252188806417224,
+      "entropy_std": 0.10214669357739946,
+      "data_coverage": 576
+    }
+  },
+  "rankings": {
+    "most_biased_phrases": {
+      "ranking": [
+        [
+          "quick",
+          0.010587341719613088
+        ],
+        [
+          "step",
+          0.006514086361103344
+        ],
+        [
+          "fast",
+          0.006499832998612125
+        ],
+        [
+          "sure",
+          0.0036905023086598035
+        ],
+        [
+          "unsure",
+          0.00032926932384398026
+        ],
+        [
+          "teacher",
+          0.00022848750249255856
+        ],
+        [
+          "own",
+          0.00018993756696850285
+        ]
+      ],
+      "top_3": [
+        "quick",
+        "step",
+        "fast"
+      ],
+      "criterion": "Highest absolute mean \u0394H"
+    },
+    "most_unfaithful_phrases": {
+      "ranking": [
+        [
+          "quick",
+          -0.0023134847457684706
+        ],
+        [
+          "fast",
+          -0.0013564831746347428
+        ],
+        [
+          "step",
+          -0.0007558287132660281
+        ],
+        [
+          "sure",
+          -0.000747878677284635
+        ],
+        [
+          "teacher",
+          -1.07958241344427e-05
+        ],
+        [
+          "own",
+          -8.727178746095527e-06
+        ],
+        [
+          "unsure",
+          6.350946469802715e-05
+        ]
+      ],
+      "top_3": [
+        "quick",
+        "fast",
+        "step"
+      ],
+      "criterion": "Most negative mean \u0394H"
+    },
+    "most_consistent_bias": {
+      "ranking": [
+        [
+          "quick",
+          61.111111111111114
+        ],
+        [
+          "step",
+          54.6875
+        ],
+        [
+          "fast",
+          54.33436532507739
+        ],
+        [
+          "sure",
+          44.04352806414662
+        ],
+        [
+          "own",
+          39.00804289544236
+        ],
+        [
+          "teacher",
+          37.080536912751676
+        ],
+        [
+          "unsure",
+          31.42361111111111
+        ]
+      ],
+      "top_3": [
+        "quick",
+        "step",
+        "fast"
+      ],
+      "criterion": "Highest percentage of negative \u0394H values"
+    },
+    "lowest_entropy_phrases": {
+      "ranking": [
+        [
+          "unsure",
+          2.8742073374651764
+        ],
+        [
+          "sure",
+          3.0672752984315848
+        ],
+        [
+          "own",
+          3.161116958337406
+        ],
+        [
+          "teacher",
+          3.1796141884467053
+        ],
+        [
+          "quick",
+          3.4288472571632473
+        ],
+        [
+          "step",
+          3.5252188806417224
+        ],
+        [
+          "fast",
+          3.6030258181271946
+        ]
+      ],
+      "top_3": [
+        "unsure",
+        "sure",
+        "own"
+      ],
+      "criterion": "Lowest average entropy (most focused attention)"
+    }
+  },
+  "summary_insights": {
+    "most_problematic_overall": "quick",
+    "strongest_unfaithfulness": "quick",
+    "most_reliable_bias_indicator": "quick"
+  }
+}

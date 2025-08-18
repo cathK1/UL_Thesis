@@ -1,0 +1,418 @@
+{
+  "teacher": {
+    "entropy_stats": {
+      "mean": 3.1796141884467053,
+      "std": 0.2857745414463218,
+      "min": 1.9707686354120408,
+      "max": 3.808999187895097,
+      "count": 896,
+      "interpretation": "Higher values indicate more faithful attention at teacher positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 3.175578742860593,
+        "std": 0.2921244571211329,
+        "count": 300
+      },
+      "prompt_2": {
+        "mean": 3.1816551513631492,
+        "std": 0.2824978347247073,
+        "count": 298
+      },
+      "prompt_3": {
+        "mean": 3.1816357546437968,
+        "std": 0.28250710772470955,
+        "count": 298
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": -1.07958241344427e-05,
+        "std": 0.0003339882513044664,
+        "negative_count": 221,
+        "positive_count": 214,
+        "total_count": 596,
+        "negative_percentage": 37.080536912751676,
+        "interpretation": "Negative \u0394H = variants more focused at teacher positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": -2.0494183810466756e-05,
+          "std": 0.00030187030034612545,
+          "negative_percentage": 35.23489932885906,
+          "count": 298
+        },
+        "prompt3_vs_prompt1": {
+          "mean": -1.097464458418646e-06,
+          "std": 0.0003630186075491995,
+          "negative_percentage": 38.92617449664429,
+          "count": 298
+        }
+      }
+    }
+  },
+  "own": {
+    "entropy_stats": {
+      "mean": 3.161116958337406,
+      "std": 0.4048299882091675,
+      "min": 1.8599845990202084,
+      "max": 4.043404636817286,
+      "count": 1136,
+      "interpretation": "Higher values indicate more faithful attention at own positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 3.1568205058646077,
+        "std": 0.4166515130210913,
+        "count": 390
+      },
+      "prompt_2": {
+        "mean": 3.163362798831251,
+        "std": 0.39848627326467545,
+        "count": 373
+      },
+      "prompt_3": {
+        "mean": 3.1633633871850937,
+        "std": 0.39849739490721686,
+        "count": 373
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": -8.727178746095527e-06,
+        "std": 0.00029652410339831,
+        "negative_count": 291,
+        "positive_count": 261,
+        "total_count": 746,
+        "negative_percentage": 39.00804289544236,
+        "interpretation": "Negative \u0394H = variants more focused at own positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": -8.433001824986072e-06,
+          "std": 0.0002839756737008755,
+          "negative_percentage": 38.337801608579085,
+          "count": 373
+        },
+        "prompt3_vs_prompt1": {
+          "mean": -9.021355667204983e-06,
+          "std": 0.0003085623623489347,
+          "negative_percentage": 39.67828418230563,
+          "count": 373
+        }
+      }
+    }
+  },
+  "sure": {
+    "entropy_stats": {
+      "mean": 3.0672752984315848,
+      "std": 0.30599157908890307,
+      "min": 2.482955885251613,
+      "max": 3.9737170534790494,
+      "count": 2622,
+      "interpretation": "Higher values indicate more faithful attention at sure positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 3.067961037702619,
+        "std": 0.3063468300696239,
+        "count": 876
+      },
+      "prompt_2": {
+        "mean": 3.06699048636377,
+        "std": 0.30591710715862325,
+        "count": 873
+      },
+      "prompt_3": {
+        "mean": 3.066872014736026,
+        "std": 0.30570806257786487,
+        "count": 873
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": -0.000747878677284635,
+        "std": 0.009943394474504173,
+        "negative_count": 769,
+        "positive_count": 690,
+        "total_count": 1746,
+        "negative_percentage": 44.04352806414662,
+        "interpretation": "Negative \u0394H = variants more focused at sure positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": -0.000807114491156464,
+          "std": 0.00930875149744815,
+          "negative_percentage": 46.16265750286369,
+          "count": 873
+        },
+        "prompt3_vs_prompt1": {
+          "mean": -0.000688642863412806,
+          "std": 0.010539559532858431,
+          "negative_percentage": 41.92439862542955,
+          "count": 873
+        }
+      }
+    }
+  },
+  "unsure": {
+    "entropy_stats": {
+      "mean": 2.8742073374651764,
+      "std": 0.1646322799685558,
+      "min": 2.4829760265793084,
+      "max": 3.4230636109101735,
+      "count": 864,
+      "interpretation": "Higher values indicate more faithful attention at unsure positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 2.874249677108308,
+        "std": 0.16460337066818212,
+        "count": 288
+      },
+      "prompt_2": {
+        "mean": 2.874207047921977,
+        "std": 0.16464740120587648,
+        "count": 288
+      },
+      "prompt_3": {
+        "mean": 2.8741652873652432,
+        "std": 0.1646460534079663,
+        "count": 288
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": 6.350946469802715e-05,
+        "std": 0.0004890981193092439,
+        "negative_count": 181,
+        "positive_count": 241,
+        "total_count": 576,
+        "negative_percentage": 31.42361111111111,
+        "interpretation": "Negative \u0394H = variants more focused at unsure positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": 4.262918633128147e-05,
+          "std": 0.0004940159471178598,
+          "negative_percentage": 31.944444444444443,
+          "count": 288
+        },
+        "prompt3_vs_prompt1": {
+          "mean": 8.438974306477282e-05,
+          "std": 0.00048322894425683694,
+          "negative_percentage": 30.90277777777778,
+          "count": 288
+        }
+      }
+    }
+  },
+  "quick": {
+    "entropy_stats": {
+      "mean": 3.4288472571632473,
+      "std": 0.09782069543109871,
+      "min": 3.230575067830986,
+      "max": 3.831141477319761,
+      "count": 864,
+      "interpretation": "Higher values indicate more faithful attention at quick positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 3.4273049339994017,
+        "std": 0.0982121322028802,
+        "count": 288
+      },
+      "prompt_2": {
+        "mean": 3.4297790271822723,
+        "std": 0.09810273013438563,
+        "count": 288
+      },
+      "prompt_3": {
+        "mean": 3.4294578103080684,
+        "std": 0.09712505887237587,
+        "count": 288
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": -0.0023134847457684706,
+        "std": 0.017210630629999023,
+        "negative_count": 352,
+        "positive_count": 224,
+        "total_count": 576,
+        "negative_percentage": 61.111111111111114,
+        "interpretation": "Negative \u0394H = variants more focused at quick positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": -0.0024740931828704316,
+          "std": 0.016082505666980475,
+          "negative_percentage": 65.97222222222221,
+          "count": 288
+        },
+        "prompt3_vs_prompt1": {
+          "mean": -0.00215287630866651,
+          "std": 0.018267814174003555,
+          "negative_percentage": 56.25,
+          "count": 288
+        }
+      }
+    }
+  },
+  "fast": {
+    "entropy_stats": {
+      "mean": 3.6030258181271946,
+      "std": 0.1374423477938417,
+      "min": 3.119212835197417,
+      "max": 4.012079232707038,
+      "count": 976,
+      "interpretation": "Higher values indicate more faithful attention at fast positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 3.599929444543132,
+        "std": 0.1412044710248621,
+        "count": 330
+      },
+      "prompt_2": {
+        "mean": 3.6049621495624637,
+        "std": 0.13576505992197752,
+        "count": 323
+      },
+      "prompt_3": {
+        "mean": 3.604252964347468,
+        "std": 0.1351390895962642,
+        "count": 323
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": -0.0013564831746347428,
+        "std": 0.010959815586596595,
+        "negative_count": 351,
+        "positive_count": 281,
+        "total_count": 646,
+        "negative_percentage": 54.33436532507739,
+        "interpretation": "Negative \u0394H = variants more focused at fast positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": -0.0017110757821325467,
+          "std": 0.010041912671704553,
+          "negative_percentage": 60.371517027863774,
+          "count": 323
+        },
+        "prompt3_vs_prompt1": {
+          "mean": -0.0010018905671369386,
+          "std": 0.01179591596459074,
+          "negative_percentage": 48.297213622291025,
+          "count": 323
+        }
+      }
+    }
+  },
+  "step": {
+    "entropy_stats": {
+      "mean": 3.5252188806417224,
+      "std": 0.10214669357739946,
+      "min": 3.2247291295352625,
+      "max": 3.8593293161466136,
+      "count": 864,
+      "interpretation": "Higher values indicate more faithful attention at step positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 3.524714994832878,
+        "std": 0.10218431050207168,
+        "count": 288
+      },
+      "prompt_2": {
+        "mean": 3.5252096644591036,
+        "std": 0.1025097516217767,
+        "count": 288
+      },
+      "prompt_3": {
+        "mean": 3.5257319826331845,
+        "std": 0.10174203298805887,
+        "count": 288
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": -0.0007558287132660281,
+        "std": 0.012271971105672465,
+        "negative_count": 315,
+        "positive_count": 261,
+        "total_count": 576,
+        "negative_percentage": 54.6875,
+        "interpretation": "Negative \u0394H = variants more focused at step positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": -0.0004946696262253849,
+          "std": 0.011022808975610142,
+          "negative_percentage": 59.375,
+          "count": 288
+        },
+        "prompt3_vs_prompt1": {
+          "mean": -0.0010169878003066712,
+          "std": 0.013400142677846397,
+          "negative_percentage": 50.0,
+          "count": 288
+        }
+      }
+    }
+  },
+  "combined": {
+    "entropy_stats": {
+      "mean": 3.1921801018359734,
+      "std": 0.31812110450716846,
+      "min": 1.860103379289285,
+      "max": 3.9926136518297426,
+      "count": 5211,
+      "interpretation": "Higher values indicate more faithful attention at combined positions"
+    },
+    "entropy_by_prompt_type": {
+      "prompt_1": {
+        "mean": 3.190652739840511,
+        "std": 0.32276123453168515,
+        "count": 1755
+      },
+      "prompt_2": {
+        "mean": 3.1929801417098003,
+        "std": 0.3158137757898891,
+        "count": 1728
+      },
+      "prompt_3": {
+        "mean": 3.1929312889887878,
+        "std": 0.31565791135457916,
+        "count": 1728
+      }
+    },
+    "delta_h_patterns": {
+      "overall": {
+        "mean": -0.00047644755457086434,
+        "std": 0.007786830478952417,
+        "negative_count": 1524,
+        "positive_count": 1351,
+        "total_count": 3456,
+        "negative_percentage": 44.09722222222222,
+        "interpretation": "Negative \u0394H = variants more focused at combined positions (unfaithful)"
+      },
+      "by_comparison": {
+        "prompt2_vs_prompt1": {
+          "mean": -0.0005008739150771644,
+          "std": 0.0071189590434435025,
+          "negative_percentage": 45.65972222222222,
+          "count": 1728
+        },
+        "prompt3_vs_prompt1": {
+          "mean": -0.0004520211940645643,
+          "std": 0.008401707365737246,
+          "negative_percentage": 42.53472222222222,
+          "count": 1728
+        }
+      }
+    }
+  }
+}

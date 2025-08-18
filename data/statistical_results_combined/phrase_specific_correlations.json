@@ -1,0 +1,170 @@
+{
+  "teacher": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": 0.005812482900802947,
+      "p_value": 0.8620657591852952,
+      "significant": false,
+      "interpretation": "Correlation between teacher entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 896,
+      "entropy_range": [
+        1.9707686354120408,
+        3.808999187895097
+      ],
+      "accuracy_rate": 0.9799107142857143,
+      "prompt_type_distribution": {
+        "Prompt_1": 300,
+        "Prompt_2": 298,
+        "Prompt_3": 298
+      }
+    }
+  },
+  "own": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": 0.17185591215887147,
+      "p_value": 5.563381494449708e-09,
+      "significant": true,
+      "interpretation": "Correlation between own entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 1136,
+      "entropy_range": [
+        1.8599845990202084,
+        4.043404636817286
+      ],
+      "accuracy_rate": 0.9683098591549296,
+      "prompt_type_distribution": {
+        "Prompt_1": 390,
+        "Prompt_2": 373,
+        "Prompt_3": 373
+      }
+    }
+  },
+  "sure": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": -0.0019159248589807184,
+      "p_value": 0.9218853333345405,
+      "significant": false,
+      "interpretation": "Correlation between sure entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 2622,
+      "entropy_range": [
+        2.482955885251613,
+        3.9737170534790494
+      ],
+      "accuracy_rate": 0.9782608695652174,
+      "prompt_type_distribution": {
+        "Prompt_1": 876,
+        "Prompt_2": 873,
+        "Prompt_3": 873
+      }
+    }
+  },
+  "unsure": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": 0.004255933467616358,
+      "p_value": 0.9005885928415531,
+      "significant": false,
+      "interpretation": "Correlation between unsure entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 864,
+      "entropy_range": [
+        2.4829760265793084,
+        3.4230636109101735
+      ],
+      "accuracy_rate": 0.9780092592592593,
+      "prompt_type_distribution": {
+        "Prompt_1": 288,
+        "Prompt_2": 288,
+        "Prompt_3": 288
+      }
+    }
+  },
+  "quick": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": 0.06365969479693695,
+      "p_value": 0.06142917407331873,
+      "significant": false,
+      "interpretation": "Correlation between quick entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 864,
+      "entropy_range": [
+        3.230575067830986,
+        3.831141477319761
+      ],
+      "accuracy_rate": 0.9745370370370371,
+      "prompt_type_distribution": {
+        "Prompt_1": 288,
+        "Prompt_2": 288,
+        "Prompt_3": 288
+      }
+    }
+  },
+  "fast": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": 0.04387843768212887,
+      "p_value": 0.17077768180860328,
+      "significant": false,
+      "interpretation": "Correlation between fast entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 976,
+      "entropy_range": [
+        3.119212835197417,
+        4.012079232707038
+      ],
+      "accuracy_rate": 0.9774590163934426,
+      "prompt_type_distribution": {
+        "Prompt_1": 330,
+        "Prompt_2": 323,
+        "Prompt_3": 323
+      }
+    }
+  },
+  "step": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": 0.03610578668894004,
+      "p_value": 0.28909990148152404,
+      "significant": false,
+      "interpretation": "Correlation between step entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 864,
+      "entropy_range": [
+        3.2247291295352625,
+        3.8593293161466136
+      ],
+      "accuracy_rate": 0.9768518518518519,
+      "prompt_type_distribution": {
+        "Prompt_1": 288,
+        "Prompt_2": 288,
+        "Prompt_3": 288
+      }
+    }
+  },
+  "combined": {
+    "entropy_vs_accuracy": {
+      "spearman_rho": 0.04252502684072008,
+      "p_value": 0.002137597710746727,
+      "significant": true,
+      "interpretation": "Correlation between combined entropy and prediction accuracy"
+    },
+    "data_summary": {
+      "total_data_points": 5211,
+      "entropy_range": [
+        1.860103379289285,
+        3.9926136518297426
+      ],
+      "accuracy_rate": 0.9773555939359048,
+      "prompt_type_distribution": {
+        "Prompt_1": 1755,
+        "Prompt_2": 1728,
+        "Prompt_3": 1728
+      }
+    }
+  }
+}

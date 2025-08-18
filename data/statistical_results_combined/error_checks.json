@@ -1,0 +1,126 @@
+{
+  "phrase_coverage": {
+    "teacher": {
+      "entropy_instances": 896,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.16374269005847952,
+      "delta_h_comparisons": 596,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    },
+    "own": {
+      "entropy_instances": 1136,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.20760233918128654,
+      "delta_h_comparisons": 746,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    },
+    "sure": {
+      "entropy_instances": 2622,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.4791666666666667,
+      "delta_h_comparisons": 1746,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    },
+    "unsure": {
+      "entropy_instances": 864,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.15789473684210525,
+      "delta_h_comparisons": 576,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    },
+    "quick": {
+      "entropy_instances": 864,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.15789473684210525,
+      "delta_h_comparisons": 576,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    },
+    "fast": {
+      "entropy_instances": 976,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.1783625730994152,
+      "delta_h_comparisons": 646,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    },
+    "step": {
+      "entropy_instances": 864,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.15789473684210525,
+      "delta_h_comparisons": 576,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    },
+    "combined": {
+      "entropy_instances": 5211,
+      "total_possible_instances": 5472,
+      "entropy_coverage_rate": 0.9523026315789473,
+      "delta_h_comparisons": 3456,
+      "zero_entropy_count": 0,
+      "very_low_entropy_count": 0,
+      "very_high_entropy_count": 0
+    }
+  },
+  "data_quality_issues": {
+    "low_coverage_phrases": [],
+    "phrases_with_no_delta_h": [],
+    "interpretation": "Phrases with low coverage may have unreliable statistics"
+  },
+  "cross_phrase_consistency": {
+    "entropy_ranges": {
+      "teacher": {
+        "min": 1.9707686354120408,
+        "max": 3.808999187895097,
+        "range": 1.838230552483056
+      },
+      "own": {
+        "min": 1.8599845990202084,
+        "max": 4.043404636817286,
+        "range": 2.1834200377970774
+      },
+      "sure": {
+        "min": 2.482955885251613,
+        "max": 3.9737170534790494,
+        "range": 1.4907611682274364
+      },
+      "unsure": {
+        "min": 2.4829760265793084,
+        "max": 3.4230636109101735,
+        "range": 0.9400875843308651
+      },
+      "quick": {
+        "min": 3.230575067830986,
+        "max": 3.831141477319761,
+        "range": 0.600566409488775
+      },
+      "fast": {
+        "min": 3.119212835197417,
+        "max": 4.012079232707038,
+        "range": 0.8928663975096205
+      },
+      "step": {
+        "min": 3.2247291295352625,
+        "max": 3.8593293161466136,
+        "range": 0.6346001866113511
+      },
+      "combined": {
+        "min": 1.860103379289285,
+        "max": 3.9926136518297426,
+        "range": 2.1325102725404577
+      }
+    },
+    "range_consistency": "Variable"
+  }
+}

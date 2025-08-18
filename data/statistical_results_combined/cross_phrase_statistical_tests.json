@@ -1,0 +1,546 @@
+{
+  "entropy_comparisons": {
+    "teacher_vs_own": {
+      "t_statistic": 1.1582255921443516,
+      "p_value": 0.2469082291997173,
+      "significant": false,
+      "mean_diff": 0.018497230109299156,
+      "effect_size": 0.0527895341977164,
+      "interpretation": "Comparing entropy between teacher and own bias phrases"
+    },
+    "teacher_vs_sure": {
+      "t_statistic": 9.642814656461775,
+      "p_value": 9.772472194424117e-22,
+      "significant": true,
+      "mean_diff": 0.11233889001512054,
+      "effect_size": 0.37945189510375743,
+      "interpretation": "Comparing entropy between teacher and sure bias phrases"
+    },
+    "teacher_vs_unsure": {
+      "t_statistic": 27.32584235703037,
+      "p_value": 2.5506708118484596e-137,
+      "significant": true,
+      "mean_diff": 0.30540685098152887,
+      "effect_size": 1.3095963606341676,
+      "interpretation": "Comparing entropy between teacher and unsure bias phrases"
+    },
+    "teacher_vs_quick": {
+      "t_statistic": -24.28552395568157,
+      "p_value": 1.3844174288467547e-112,
+      "significant": true,
+      "mean_diff": -0.24923306871654205,
+      "effect_size": 1.1669106382538386,
+      "interpretation": "Comparing entropy between teacher and quick bias phrases"
+    },
+    "teacher_vs_fast": {
+      "t_statistic": -41.346274141282244,
+      "p_value": 5.922986807234612e-266,
+      "significant": true,
+      "mean_diff": -0.4234116296804893,
+      "effect_size": 1.888298175138294,
+      "interpretation": "Comparing entropy between teacher and fast bias phrases"
+    },
+    "teacher_vs_step": {
+      "t_statistic": -33.522600893698346,
+      "p_value": 6.534564610005908e-191,
+      "significant": true,
+      "mean_diff": -0.3456046921950171,
+      "effect_size": 1.6105060898370895,
+      "interpretation": "Comparing entropy between teacher and step bias phrases"
+    },
+    "teacher_vs_combined": {
+      "t_statistic": -1.1078202164520876,
+      "p_value": 0.2679831108189336,
+      "significant": false,
+      "mean_diff": -0.012565913389268157,
+      "effect_size": 0.04155660430727826,
+      "interpretation": "Comparing entropy between teacher and combined bias phrases"
+    },
+    "own_vs_sure": {
+      "t_statistic": 7.7930346133915345,
+      "p_value": 8.406989306142864e-15,
+      "significant": true,
+      "mean_diff": 0.09384165990582138,
+      "effect_size": 0.2615211057002873,
+      "interpretation": "Comparing entropy between own and sure bias phrases"
+    },
+    "own_vs_unsure": {
+      "t_statistic": 19.623877054797177,
+      "p_value": 1.5019191436423476e-78,
+      "significant": true,
+      "mean_diff": 0.2869096208722297,
+      "effect_size": 0.9284393449479201,
+      "interpretation": "Comparing entropy between own and unsure bias phrases"
+    },
+    "own_vs_quick": {
+      "t_statistic": -19.012077360206103,
+      "p_value": 3.2585361520380265e-74,
+      "significant": true,
+      "mean_diff": -0.2677302988258412,
+      "effect_size": 0.9091124323002524,
+      "interpretation": "Comparing entropy between own and quick bias phrases"
+    },
+    "own_vs_fast": {
+      "t_statistic": -32.51430062530439,
+      "p_value": 2.4315306051846264e-188,
+      "significant": true,
+      "mean_diff": -0.44190885978978844,
+      "effect_size": 1.461793683118624,
+      "interpretation": "Comparing entropy between own and fast bias phrases"
+    },
+    "own_vs_step": {
+      "t_statistic": -25.80607420717475,
+      "p_value": 5.568792463843337e-127,
+      "significant": true,
+      "mean_diff": -0.36410192230431626,
+      "effect_size": 1.2332831093014578,
+      "interpretation": "Comparing entropy between own and step bias phrases"
+    },
+    "own_vs_combined": {
+      "t_statistic": -2.8289101299472157,
+      "p_value": 0.004685336818666588,
+      "significant": true,
+      "mean_diff": -0.031063143498567314,
+      "effect_size": 0.08532279517193353,
+      "interpretation": "Comparing entropy between own and combined bias phrases"
+    },
+    "sure_vs_unsure": {
+      "t_statistic": 17.715322814370392,
+      "p_value": 2.6280875281285825e-67,
+      "significant": true,
+      "mean_diff": 0.19306796096640833,
+      "effect_size": 0.7857950209547958,
+      "interpretation": "Comparing entropy between sure and unsure bias phrases"
+    },
+    "sure_vs_quick": {
+      "t_statistic": -34.15271651191895,
+      "p_value": 9.152104154119184e-221,
+      "significant": true,
+      "mean_diff": -0.3615719587316626,
+      "effect_size": 1.5917338380436348,
+      "interpretation": "Comparing entropy between sure and quick bias phrases"
+    },
+    "sure_vs_fast": {
+      "t_statistic": -52.73912109741407,
+      "p_value": 0.0,
+      "significant": true,
+      "mean_diff": -0.5357505196956098,
+      "effect_size": 2.258709266441617,
+      "interpretation": "Comparing entropy between sure and fast bias phrases"
+    },
+    "sure_vs_step": {
+      "t_statistic": -43.19205565387506,
+      "p_value": 0.0,
+      "significant": true,
+      "mean_diff": -0.45794358221013765,
+      "effect_size": 2.007590174567993,
+      "interpretation": "Comparing entropy between sure and step bias phrases"
+    },
+    "sure_vs_combined": {
+      "t_statistic": -16.605445194115568,
+      "p_value": 6.939524935006152e-61,
+      "significant": true,
+      "mean_diff": -0.1249048034043887,
+      "effect_size": 0.4001880567437864,
+      "interpretation": "Comparing entropy between sure and combined bias phrases"
+    },
+    "unsure_vs_quick": {
+      "t_statistic": -85.0834753694225,
+      "p_value": 0.0,
+      "significant": true,
+      "mean_diff": -0.5546399196980709,
+      "effect_size": 4.095951645991632,
+      "interpretation": "Comparing entropy between unsure and quick bias phrases"
+    },
+    "unsure_vs_fast": {
+      "t_statistic": -103.39341313689884,
+      "p_value": 0.0,
+      "significant": true,
+      "mean_diff": -0.7288184806620182,
+      "effect_size": 4.805990445258009,
+      "interpretation": "Comparing entropy between unsure and fast bias phrases"
+    },
+    "unsure_vs_step": {
+      "t_statistic": -98.70975119061819,
+      "p_value": 0.0,
+      "significant": true,
+      "mean_diff": -0.651011543176546,
+      "effect_size": 4.751925871729719,
+      "interpretation": "Comparing entropy between unsure and step bias phrases"
+    },
+    "unsure_vs_combined": {
+      "t_statistic": -28.7440670158716,
+      "p_value": 1.8120284059007466e-170,
+      "significant": true,
+      "mean_diff": -0.317972764370797,
+      "effect_size": 1.255403764116476,
+      "interpretation": "Comparing entropy between unsure and combined bias phrases"
+    },
+    "quick_vs_fast": {
+      "t_statistic": -30.93482732841804,
+      "p_value": 1.643758988441724e-169,
+      "significant": true,
+      "mean_diff": -0.17417856096394724,
+      "effect_size": 1.4601507137870013,
+      "interpretation": "Comparing entropy between quick and fast bias phrases"
+    },
+    "quick_vs_step": {
+      "t_statistic": -20.01745181342961,
+      "p_value": 2.516150071397955e-80,
+      "significant": true,
+      "mean_diff": -0.09637162347847505,
+      "effect_size": 0.9636479274945219,
+      "interpretation": "Comparing entropy between quick and step bias phrases"
+    },
+    "quick_vs_combined": {
+      "t_statistic": 21.694668710431486,
+      "p_value": 1.39817400876366e-100,
+      "significant": true,
+      "mean_diff": 0.2366671553272739,
+      "effect_size": 1.0056388820206956,
+      "interpretation": "Comparing entropy between quick and combined bias phrases"
+    },
+    "fast_vs_step": {
+      "t_statistic": 13.62941665146389,
+      "p_value": 2.2866607881157808e-40,
+      "significant": true,
+      "mean_diff": 0.07780693748547218,
+      "effect_size": 0.6425680862071749,
+      "interpretation": "Comparing entropy between fast and step bias phrases"
+    },
+    "fast_vs_combined": {
+      "t_statistic": 39.65326696654067,
+      "p_value": 1.3380560195457316e-306,
+      "significant": true,
+      "mean_diff": 0.41084571629122113,
+      "effect_size": 1.6766319653038717,
+      "interpretation": "Comparing entropy between fast and combined bias phrases"
+    },
+    "step_vs_combined": {
+      "t_statistic": 30.50752965410648,
+      "p_value": 2.5897146060395284e-190,
+      "significant": true,
+      "mean_diff": 0.33303877880574895,
+      "effect_size": 1.4096446445179358,
+      "interpretation": "Comparing entropy between step and combined bias phrases"
+    }
+  },
+  "delta_h_comparisons": {
+    "teacher_vs_own": {
+      "t_statistic": -0.11993417284798719,
+      "p_value": 0.9045532724451029,
+      "significant": false,
+      "mean_diff": -2.0686453883471733e-06,
+      "effect_size": 0.006550238922566996,
+      "interpretation": "Comparing \u0394H bias effects between teacher and own"
+    },
+    "teacher_vs_sure": {
+      "t_statistic": 1.8085713255655895,
+      "p_value": 0.07064593888693638,
+      "significant": false,
+      "mean_diff": 0.0007370828531501922,
+      "effect_size": 0.10477358051447833,
+      "interpretation": "Comparing \u0394H bias effects between teacher and sure"
+    },
+    "teacher_vs_unsure": {
+      "t_statistic": -3.043540952836135,
+      "p_value": 0.0023902949056543443,
+      "significant": true,
+      "mean_diff": -7.430528883246985e-05,
+      "effect_size": 0.1774297835372962,
+      "interpretation": "Comparing \u0394H bias effects between teacher and unsure"
+    },
+    "teacher_vs_quick": {
+      "t_statistic": 3.2629178821546843,
+      "p_value": 0.0011345772759373384,
+      "significant": true,
+      "mean_diff": 0.002302688921634028,
+      "effect_size": 0.18917847721400433,
+      "interpretation": "Comparing \u0394H bias effects between teacher and quick"
+    },
+    "teacher_vs_fast": {
+      "t_statistic": 2.9938368528240225,
+      "p_value": 0.002809512858714384,
+      "significant": true,
+      "mean_diff": 0.0013456873505003001,
+      "effect_size": 0.17356188541945133,
+      "interpretation": "Comparing \u0394H bias effects between teacher and fast"
+    },
+    "teacher_vs_step": {
+      "t_statistic": 1.4802907217966021,
+      "p_value": 0.13906489352191911,
+      "significant": false,
+      "mean_diff": 0.0007450328891315854,
+      "effect_size": 0.08582530202964268,
+      "interpretation": "Comparing \u0394H bias effects between teacher and step"
+    },
+    "teacher_vs_combined": {
+      "t_statistic": 1.459309948939601,
+      "p_value": 0.14455737200792143,
+      "significant": false,
+      "mean_diff": 0.00046565173043642167,
+      "effect_size": 0.08449215473880937,
+      "interpretation": "Comparing \u0394H bias effects between teacher and combined"
+    },
+    "own_vs_sure": {
+      "t_statistic": 2.0291369901968785,
+      "p_value": 0.04255052222042661,
+      "significant": true,
+      "mean_diff": 0.0007391514985385394,
+      "effect_size": 0.10508016986799253,
+      "interpretation": "Comparing \u0394H bias effects between own and sure"
+    },
+    "own_vs_unsure": {
+      "t_statistic": -3.31782141354904,
+      "p_value": 0.0009319309962856139,
+      "significant": true,
+      "mean_diff": -7.223664344412268e-05,
+      "effect_size": 0.17860902442387352,
+      "interpretation": "Comparing \u0394H bias effects between own and unsure"
+    },
+    "own_vs_quick": {
+      "t_statistic": 3.6541439394487445,
+      "p_value": 0.0002681586272090078,
+      "significant": true,
+      "mean_diff": 0.002304757567022375,
+      "effect_size": 0.18935597535644352,
+      "interpretation": "Comparing \u0394H bias effects between own and quick"
+    },
+    "own_vs_fast": {
+      "t_statistic": 3.354916699533198,
+      "p_value": 0.0008152838903164166,
+      "significant": true,
+      "mean_diff": 0.0013477559958886473,
+      "effect_size": 0.17384577053640018,
+      "interpretation": "Comparing \u0394H bias effects between own and fast"
+    },
+    "own_vs_step": {
+      "t_statistic": 1.6608936412440345,
+      "p_value": 0.09697229066381748,
+      "significant": false,
+      "mean_diff": 0.0007471015345199326,
+      "effect_size": 0.08607034835135033,
+      "interpretation": "Comparing \u0394H bias effects between own and step"
+    },
+    "own_vs_combined": {
+      "t_statistic": 1.639923711326294,
+      "p_value": 0.10109591752177711,
+      "significant": false,
+      "mean_diff": 0.0004677203758247688,
+      "effect_size": 0.0848840143533446,
+      "interpretation": "Comparing \u0394H bias effects between own and combined"
+    },
+    "sure_vs_unsure": {
+      "t_statistic": -1.9567928838255362,
+      "p_value": 0.05049160918759398,
+      "significant": false,
+      "mean_diff": -0.0008113881419826621,
+      "effect_size": 0.11526149162208818,
+      "interpretation": "Comparing \u0394H bias effects between sure and unsure"
+    },
+    "sure_vs_quick": {
+      "t_statistic": 2.67872171078167,
+      "p_value": 0.007442541598059684,
+      "significant": true,
+      "mean_diff": 0.0015656060684838356,
+      "effect_size": 0.11139268569375352,
+      "interpretation": "Comparing \u0394H bias effects between sure and quick"
+    },
+    "sure_vs_fast": {
+      "t_statistic": 1.2915959099063739,
+      "p_value": 0.19662201280568958,
+      "significant": false,
+      "mean_diff": 0.0006086044973501078,
+      "effect_size": 0.05816200248545534,
+      "interpretation": "Comparing \u0394H bias effects between sure and fast"
+    },
+    "sure_vs_step": {
+      "t_statistic": 0.01564771986353475,
+      "p_value": 0.9875167808543297,
+      "significant": false,
+      "mean_diff": 7.950035981393161e-06,
+      "effect_size": 0.0007118243938278397,
+      "interpretation": "Comparing \u0394H bias effects between sure and step"
+    },
+    "sure_vs_combined": {
+      "t_statistic": -1.0783250622321499,
+      "p_value": 0.28093873389848933,
+      "significant": false,
+      "mean_diff": -0.0002714311227137706,
+      "effect_size": 0.030393895806601533,
+      "interpretation": "Comparing \u0394H bias effects between sure and combined"
+    },
+    "unsure_vs_quick": {
+      "t_statistic": 3.3104723440985766,
+      "p_value": 0.0009602939842657954,
+      "significant": true,
+      "mean_diff": 0.002376994210466498,
+      "effect_size": 0.19524100728423274,
+      "interpretation": "Comparing \u0394H bias effects between unsure and quick"
+    },
+    "unsure_vs_fast": {
+      "t_statistic": 3.1042246914783633,
+      "p_value": 0.0019516915849845224,
+      "significant": true,
+      "mean_diff": 0.00141999263933277,
+      "effect_size": 0.18304835086161342,
+      "interpretation": "Comparing \u0394H bias effects between unsure and fast"
+    },
+    "unsure_vs_step": {
+      "t_statistic": 1.5996985246383224,
+      "p_value": 0.10994015163144309,
+      "significant": false,
+      "mean_diff": 0.0008193381779640552,
+      "effect_size": 0.09434507189231088,
+      "interpretation": "Comparing \u0394H bias effects between unsure and step"
+    },
+    "unsure_vs_combined": {
+      "t_statistic": 1.6632565372177632,
+      "p_value": 0.0963388507841052,
+      "significant": false,
+      "mean_diff": 0.0005399570192688915,
+      "effect_size": 0.09787199977308976,
+      "interpretation": "Comparing \u0394H bias effects between unsure and combined"
+    },
+    "quick_vs_fast": {
+      "t_statistic": -1.1707775890254046,
+      "p_value": 0.2419168172383447,
+      "significant": false,
+      "mean_diff": -0.0009570015711337278,
+      "effect_size": 0.06633034502735381,
+      "interpretation": "Comparing \u0394H bias effects between quick and fast"
+    },
+    "quick_vs_step": {
+      "t_statistic": -1.7670362537033946,
+      "p_value": 0.07748735617345656,
+      "significant": false,
+      "mean_diff": -0.0015576560325024425,
+      "effect_size": 0.10421411273705984,
+      "interpretation": "Comparing \u0394H bias effects between quick and step"
+    },
+    "quick_vs_combined": {
+      "t_statistic": -4.202623105564973,
+      "p_value": 2.6955733390595525e-05,
+      "significant": true,
+      "mean_diff": -0.0018370371911976063,
+      "effect_size": 0.13752949723183644,
+      "interpretation": "Comparing \u0394H bias effects between quick and combined"
+    },
+    "fast_vs_step": {
+      "t_statistic": -0.9030709473857694,
+      "p_value": 0.3666665098564924,
+      "significant": false,
+      "mean_diff": -0.0006006544613687147,
+      "effect_size": 0.05162742574896552,
+      "interpretation": "Comparing \u0394H bias effects between fast and step"
+    },
+    "fast_vs_combined": {
+      "t_statistic": -2.453258970178551,
+      "p_value": 0.014198182277419698,
+      "significant": true,
+      "mean_diff": -0.0008800356200638784,
+      "effect_size": 0.0925706575648321,
+      "interpretation": "Comparing \u0394H bias effects between fast and combined"
+    },
+    "step_vs_combined": {
+      "t_statistic": -0.7239718661194123,
+      "p_value": 0.46912503017202556,
+      "significant": false,
+      "mean_diff": -0.00027938115869516377,
+      "effect_size": 0.027184925094744572,
+      "interpretation": "Comparing \u0394H bias effects between step and combined"
+    }
+  },
+  "overall_entropy_test": {
+    "test": "Kruskal-Wallis H-test (non-parametric ANOVA)",
+    "h_statistic": 4361.650760629136,
+    "p_value": 0.0,
+    "significant": true,
+    "interpretation": "Tests if entropy distributions differ significantly across phrases",
+    "phrases_tested": [
+      "teacher",
+      "own",
+      "sure",
+      "unsure",
+      "quick",
+      "fast",
+      "step",
+      "combined"
+    ]
+  },
+  "overall_delta_h_test": {
+    "test": "Kruskal-Wallis H-test (non-parametric ANOVA)",
+    "h_statistic": 79.78766422901772,
+    "p_value": 1.521905685803417e-14,
+    "significant": true,
+    "interpretation": "Tests if \u0394H distributions differ significantly across phrases",
+    "phrases_tested": [
+      "teacher",
+      "own",
+      "sure",
+      "unsure",
+      "quick",
+      "fast",
+      "step",
+      "combined"
+    ]
+  },
+  "phrase_vs_zero_tests": {
+    "teacher": {
+      "t_statistic": -0.7884662244355846,
+      "p_value": 0.4307380717313193,
+      "significant": false,
+      "mean_delta_h": -1.07958241344427e-05,
+      "interpretation": "Testing if teacher \u0394H is significantly different from zero"
+    },
+    "own": {
+      "t_statistic": -0.803326337998398,
+      "p_value": 0.4220423593365946,
+      "significant": false,
+      "mean_delta_h": -8.727178746095527e-06,
+      "interpretation": "Testing if own \u0394H is significantly different from zero"
+    },
+    "sure": {
+      "t_statistic": -3.1419133083183475,
+      "p_value": 0.0017066627662301957,
+      "significant": true,
+      "mean_delta_h": -0.000747878677284635,
+      "interpretation": "Testing if sure \u0394H is significantly different from zero"
+    },
+    "unsure": {
+      "t_statistic": 3.113697239908385,
+      "p_value": 0.0019394919122924412,
+      "significant": true,
+      "mean_delta_h": 6.350946469802715e-05,
+      "interpretation": "Testing if unsure \u0394H is significantly different from zero"
+    },
+    "quick": {
+      "t_statistic": -3.223322640229184,
+      "p_value": 0.0013388944596982452,
+      "significant": true,
+      "mean_delta_h": -0.0023134847457684706,
+      "interpretation": "Testing if quick \u0394H is significantly different from zero"
+    },
+    "fast": {
+      "t_statistic": -3.1433375598929656,
+      "p_value": 0.001746953490030685,
+      "significant": true,
+      "mean_delta_h": -0.0013564831746347428,
+      "interpretation": "Testing if fast \u0394H is significantly different from zero"
+    },
+    "step": {
+      "t_statistic": -1.4768724347919164,
+      "p_value": 0.14025729120071478,
+      "significant": false,
+      "mean_delta_h": -0.0007558287132660281,
+      "interpretation": "Testing if step \u0394H is significantly different from zero"
+    },
+    "combined": {
+      "t_statistic": -3.5964862806851166,
+      "p_value": 0.00032705943812652056,
+      "significant": true,
+      "mean_delta_h": -0.00047644755457086434,
+      "interpretation": "Testing if combined \u0394H is significantly different from zero"
+    }
+  }
+}

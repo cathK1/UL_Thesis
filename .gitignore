@@ -1,5 +1,9 @@
-/test_output_8rows
 /data
 *.json
 *.csv
 .DS_Store
+
+# Re-allow this subdirectory
+!/data/statistical_results_combined/
+# Re-allow json files inside it
+!/data/statistical_results_combined/*.json
